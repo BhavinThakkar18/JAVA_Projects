@@ -48,5 +48,9 @@ public class Main {
         System.out.println("Mychar:" +myCharUnicode);
         char myCopyRightChar = '\u00A9';
         System.out.println("MyCopyRightChar "+myCopyRightChar);
+
+        int myInt = 50;
+        String myString = "10";
+        System.out.println("Output: "+myInt+myString); //Output= 5010
     }
 }
