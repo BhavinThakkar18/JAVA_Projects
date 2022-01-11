@@ -22,5 +22,9 @@ public class Main {
 
         System.out.println("Min Short value "+ myMinShortValue);
         System.out.println("Max Short Value:" + myMaxShortValue);
+
+        int myTotal = (myMinIntValue/2);
+        byte myByteTotal = (byte) (myMinByteValue/2); //type casting
+        short myShortTotal = (short) (myMinShortValue/2); //type casting
     }
 }
