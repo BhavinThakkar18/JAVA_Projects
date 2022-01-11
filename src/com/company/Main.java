@@ -26,5 +26,27 @@ public class Main {
         int myTotal = (myMinIntValue/2);
         byte myByteTotal = (byte) (myMinByteValue/2); //type casting
         short myShortTotal = (short) (myMinShortValue/2); //type casting
+
+        byte  num1 = 50;
+        short num2 = 150;
+        int num3 = 550;
+        long total = 50000L + 10L*(num1+num2+num3);
+        System.out.println("Total:"+ total);
+
+        System.out.println("Min float value: "+Float.MIN_VALUE );
+        System.out.println("Max float value "+Float.MIN_VALUE);
+
+        System.out.println("Min Double value: "+ Double.MIN_VALUE);
+        System.out.println("Max Double value: "+ Double.MAX_VALUE);
+
+        double pound = 200;
+        double killoGrams = pound*(0.45359237);
+        System.out.println("KG: "+killoGrams);
+
+        char myChar = 'D';
+        char myCharUnicode = '\u0044';
+        System.out.println("Mychar:" +myCharUnicode);
+        char myCopyRightChar = '\u00A9';
+        System.out.println("MyCopyRightChar "+myCopyRightChar);
     }
 }
